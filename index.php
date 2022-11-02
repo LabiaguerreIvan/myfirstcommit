@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <title>Inicio</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Inicio</title>
+        <link rel="stylesheet" href="header.css">
+        <link href="product.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f0d1b5e3e0.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/product/">
 
@@ -33,21 +33,25 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="product.css" rel="stylesheet">
 </head>
-<body>
-    <div id="bg">
-    <header class="site-header sticky-top py-1">
-    <nav class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="" aria-label="Inicio">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Inicio</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-            <a class="py-2 d-none d-md-inline-block" href="#nosotros">Nosotros</a>
-            <a class="py-2 d-none d-md-inline-block" href="">Sucursales</a>
-            <a class="py-2 d-none d-md-inline-block" href="">Catálogo</a>
-            <a class="py-2 d-none d-md-inline-block" href="#contactanos">Contactanos</a>
-            <a class="py-2 d-none d-md-inline-block" href="">Iniciar Sesion</a>
-    </nav>
-</header>
+<body id=bg>
+<nav>
+    <div class="logo">
+        <i class="fa-solid fa-hammer"></i>
+    </div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <li><a class="active" href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Catálogo</a></li>
+        <li><a href="#">Contactanos</a></li>
+        <li><a href="#">Iniciar Sesion</a></li>
+    </ul>
+</nav>
+
 
 <main>
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
@@ -230,3 +234,4 @@
     
 </body>
 </html>
+                                    
