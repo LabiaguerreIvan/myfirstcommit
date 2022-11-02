@@ -1,3 +1,5 @@
+
+
 a {
   text-decoration: none;
 }
@@ -6,32 +8,10 @@ a {
   max-width: 960px;
 }
 
-
-/*
- * Custom translucent site header
- */
-
-.site-header {
-  background-color: rgb(6, 103, 182);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-.site-header a {
-  color: #ffffff;
-  transition: color .15s ease-in-out;
-}
-.site-header a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
 #bg
 {
   background-color: rgba(153, 201, 241, 0.932);
 }
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
 
 .product-device {
   position: absolute;
@@ -67,3 +47,12 @@ a {
 /*
  * Extra utilities
  */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
