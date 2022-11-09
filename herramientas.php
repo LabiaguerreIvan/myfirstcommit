@@ -33,7 +33,7 @@
     
     <!-- Custom styles for this template -->
 </head>
-<body id='bg' class='imgbody'>
+<body id='bghe' class='imgbody'>
 <nav>
     <div class="logo">
         <i class="fa-solid fa-hammer"></i>
@@ -54,18 +54,10 @@
 <main>
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
-    <h1 class="display-4 fw-normal"><i>Ferreteria "Labeitas"</i></h1>
+    <h1 class="display-4 fw-normal"><i>"Herramientas"</i></h1>
     &nbsp;
-    <a class="btn btn-outline-secondary" href="electronica.php">Electronica</a>
-    &nbsp;&nbsp;
-    <a class="btn btn-outline-secondary" href="cables.php">Cables</a>
-    &nbsp;&nbsp;
-    <a class="btn btn-outline-secondary" href="herramientas.php">Herramientas</a>
-    &nbsp;&nbsp;
-    <a class="btn btn-outline-secondary" href="iluminacion.php">IIluminacion</a>
-    &nbsp;&nbsp;
-    <a class="btn btn-outline-secondary" href="otros.php">Otros Productos</a>   
-</div>
+    
+    </div>
     <div class="product-device shadow-sm d-none d-md-block"></div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 </div>

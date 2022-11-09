@@ -10,14 +10,34 @@ a {
 
 #bg
 {
-  background: url('https://img.freepik.com/fotos-premium/grupo-herramientas-grunge-sobre-fondo-madera-espacio-vacio-texto-o-marca_6216-139.jpg?w=740');
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-color: rgba(231, 193, 135, 0.801);
   
 }
 
+#bgel
+{
+  background-color: rgba(120, 215, 252, 0.479);
+}
 
+#bgca
+{
+  background-color: #e75858a2;
+}
 
+#bghe
+{
+  background-color: #af701dc5;
+}
+
+#bgil
+{
+  background-color: #f5c02ebe;
+}
+
+#bgot
+{
+background-color: #ffffff;
+}
 
 .product-device-2 {
   top: -25%;
