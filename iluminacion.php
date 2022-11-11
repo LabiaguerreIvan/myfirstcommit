@@ -53,14 +53,18 @@
 
 <main>
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
-    <div class="col-md-5 p-lg-5 mx-auto my-5">
-    <h1 class="display-4 fw-normal"><i>"Iluminacion"</i></h1>
-    &nbsp;
+<div class="col-md-5 p-lg-2 mx-auto my-5">
+    <h1 class="display-4 fw-bold"><i>"Iluminación"</i></h1>
+    <div class="px-4 pt-2 my-5 text-center border-bottom">
+    <div class="overflow-hidden" style="max-height: 30vh;">
+    <div class="container px-5">
+        <img src="https://www.flexxus.com.ar/wp-content/uploads/2016/05/Iluminacion.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+    </div>
+    </div>
+</div>
     
     </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-</div>
+
 
 <!-- fila 1 - card 1 -->
 <div class="container text-center">
